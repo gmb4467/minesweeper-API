@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/minesweeper
+    driverClassName: org.postgresql.Driver
+    username: admin
+    password: admin
+  jpa:
+    hibernate.ddl-auto: validate
+  flyway:
+    url: jdbc:postgresql://localhost:5432/minesweeper
+    username: admin
+    password: admin
